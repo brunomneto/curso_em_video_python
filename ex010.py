@@ -1,0 +1,5 @@
+print(' Conversor de Dólares')
+print('')
+real = float(input(' Quantos reais você tem na carteira? '))
+print('')
+print('Com R$ {:.2f} você poderá comprar US$ {:.2f}. '.format(real, (real/3.27)))
